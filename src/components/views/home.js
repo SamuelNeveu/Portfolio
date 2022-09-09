@@ -24,11 +24,10 @@ const Home = (props) => {
                 <About/>
             </section>
             <section className="three">
-                <Timeline/>
-
+                <Projects/>
             </section>
             <section className="four">
-                <Projects/>
+                <Timeline/>
             </section>
             <section className="five">
                 <Contact/>
