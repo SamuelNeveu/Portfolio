@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca64a1b6.css",
+    "main.js": "/static/js/main.440d9405.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/doom-1.png": "/static/media/doom-1.fb9bc92d9452c1ea5d3e.png",
+    "static/media/fractal.jpg": "/static/media/fractal.16ffce70e2ce040090bd.jpg",
+    "static/media/CandyShop.png": "/static/media/CandyShop.5a91f0e9e7a4f0d8fee5.png",
+    "static/media/fractal-3.png": "/static/media/fractal-3.cf0c26b78a3e6f1fb051.png",
+    "static/media/engine-0.png": "/static/media/engine-0.f13bfa8e411c32268be3.png",
+    "static/media/home-profil.jpg": "/static/media/home-profil.b3c6625ae106743f765c.jpg",
+    "static/media/puissance4.png": "/static/media/puissance4.169d6b53a2b90bd9bd0a.png",
+    "static/media/Canter Bold Strips.otf": "/static/media/Canter Bold Strips.c8d06a576778a58ac2d4.otf",
+    "static/media/Flatform_Light.otf": "/static/media/Flatform_Light.ac73633a1c994b34de2d.otf",
+    "static/media/Canter Outline.otf": "/static/media/Canter Outline.cb1e141381f248054853.otf",
+    "static/media/Canter Bold 3D.otf": "/static/media/Canter Bold 3D.483330a2da8301eec224.otf",
+    "static/media/Canter Bold Shadow.otf": "/static/media/Canter Bold Shadow.0489bee039175ef68b17.otf",
+    "static/media/Flatstock.ttf": "/static/media/Flatstock.d3b845f6f1557d70f560.ttf",
+    "static/media/Canter Bold.otf": "/static/media/Canter Bold.9e6e9a8f03cefaff7f33.otf",
+    "static/media/Canter Light.otf": "/static/media/Canter Light.d8b003a0fed6bf932e70.otf",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.ca64a1b6.css.map": "/static/css/main.ca64a1b6.css.map",
+    "main.440d9405.js.map": "/static/js/main.440d9405.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca64a1b6.css",
+    "static/js/main.440d9405.js"
+  ]
+}

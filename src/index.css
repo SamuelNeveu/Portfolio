@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "CanterBoldShadow";
+  src: local("CanterBoldShadow"),
+  url("./assets/fonts/Canter Bold Shadow.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "CanterBold";
+  src: local("CanterBold"),
+  url("./assets/fonts/Canter Bold.otf") format("truetype");
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: "CanterBold3D";
+  src: local("CanterBold3D"),
+  url("./assets/fonts/Canter Bold 3D.otf") format("truetype");
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: "CanterBoldStrips";
+  src: local("CanterBoldStrips"),
+  url("./assets/fonts/Canter Bold Strips.otf") format("truetype");
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: "CanterLight";
+  src: local("CanterLight"),
+  url("./assets/fonts/Canter Light.otf") format("truetype");
+  font-weight: auto;
+}
+
+@font-face {
+  font-family: "CanterOutline";
+  src: local("CanterOutline"),
+  url("./assets/fonts/Canter Outline.otf") format("truetype");
+  font-weight: auto;
+}
+
+
+@font-face {
+  font-family: "FlatformLight";
+  src: local("FlatformLight"),
+  url("./assets/fonts/Flatform_Light.otf") format("truetype");
+  font-weight: auto;
+}
+
+@font-face {
+  font-family: "Flatstock";
+  src: local("Flatstock"),
+  url("./assets/fonts/Flatstock.ttf") format("truetype");
+  font-weight: auto;
+}
