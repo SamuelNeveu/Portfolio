@@ -8,7 +8,9 @@ export default function Footer() {
             </div>
             <div className={'footer-cv-ctn'}>
                 <div className={"footer-button"}>
-                    <div onClick={()=>window.open(`https://samuelneveu.github.io/CV/srt-resume.html`, '_blank')} className=" send-btn" ><div className={'send-span'}>CV</div></div>
+                    <div onClick={()=>window.open(`/Users/sneveu/Documents/Projet Perso/Portfolio/src/CV`, '_blank')} className=" send-btn" >
+                        <div className={'send-span'}>CV</div>
+                    </div>
                 </div>
             </div>
             <div className={"footer-contact"}>

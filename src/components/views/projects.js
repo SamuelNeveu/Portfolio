@@ -4,10 +4,96 @@ import Engine from "../../assets/img/engine-0.png";
 import Doom from "../../assets/img/doom-1.png";
 import FractalC from "../../assets/img/fractal-3.png";
 import CandyShop from '../../assets/img/CandyShop.png';
+import MandelbrotMockup from '../../assets/img/MandelbrotMockup.jpeg'
+import IAGenerator from '../../assets/img/GeneratorMockup.jpeg'
+import ArvinCare from '../../assets/img/ArvinCareMockup.jpeg'
+import Hellowork from '../../assets/img/HelloworkMockup.jpeg'
 
 export default function Projects() {
     return (
             <div className="project-container">
+                <div className="project-card"
+                     data-aos={'fade-right'}
+                     data-aos-anchor=".project-container"
+                     data-aos-offset="200"
+                     data-aos-duration="200">
+                    <img src={MandelbrotMockup} className="project-img" alt=""/>
+                        <div className="project-content project-content-white">
+                            <h1 className="project-title">Fractal Player</h1>
+                            <p className="project-info">
+                                React-Native - Expo - ThreeJS<br/>2023<br/>Mandelbrot fractal application<small><br/>Infinite Zoom</small>
+                            </p>
+                            <div className="project-btn-grp">
+                                <button className="project-btn github"
+                                        onClick={()=>window.open(`https://github.com/FindTheFox/Fractal-React-Native-Three`, '_blank')}>Github
+                                </button>
+                            </div>
+                        </div>
+                </div>
+
+                <div className="project-card"
+                     data-aos={'fade-left'}
+                     data-aos-anchor=".project-container"
+                     data-aos-offset="200"
+                     data-aos-duration="200">
+                    <img src={IAGenerator} className="project-img" alt=""/>
+                        <div className="project-content project-content-white">
+                            <h1 className="project-title">AIGenerator</h1>
+                            <p className="project-info">
+                                SwiftUI - UIKit - Dall-E API<br/>2023<br/>IA generated image based on prompt. Share to your friend, save and edit your creation.<small><br/></small>
+                            </p>
+                            <div className="project-btn-grp">
+                                <button className="project-btn github"
+                                        onClick={()=>window.open(`https://github.com/FindTheFox/AIGenerator`, '_blank')}>Github
+                                </button>
+                            </div>
+                        </div>
+                </div>
+
+                <div className="project-card"
+                     data-aos={'fade-right'}
+                     data-aos-anchor=".project-container"
+                     data-aos-offset="200"
+                     data-aos-duration="200">
+                    <img src={ArvinCare} className="project-img" alt=""/>
+                        <div className="project-content project-content-white">
+                            <h1 className="project-title">ArvinCare</h1>
+                            <p className="project-info">
+                                React-Native - Redux - Laravel<br/>2023<br/>Service de réservation de voiturier Rennais.<small><br/>Application  pour les clients, chauffeurs et admins</small>
+                            </p>
+                            <div className="project-btn-grp">
+                                <button className="project-btn github"
+                                        onClick={()=>window.open(`https://apps.apple.com/us/app/arvin-care/id6445979745`, '_blank')}>Apple Store
+                                </button>
+                                <button className="project-btn github"
+                                        onClick={()=>window.open(`https://play.google.com/store/apps/details?id=com.arvin_care.app`, '_blank')}>PlayStore
+                                </button>
+                            </div>
+                        </div>
+                </div>
+
+                <div className="project-card"
+                     data-aos={'fade-left'}
+                     data-aos-anchor=".project-container"
+                     data-aos-offset="200"
+                     data-aos-duration="200">
+                    <img src={Hellowork} className="project-img" alt=""/>
+                        <div className="project-content project-content-white">
+                            <h1 className="project-title">Hellowork</h1>
+                            <p className="project-info">
+                                Swift / SwiftUI - Kotlin / Compose<br/>2023<br/>Premier acteur digital français du recrutement de l’emploi et de la formation, s’adresse à tous les actifs.<small><br/></small>
+                            </p>
+                            <div className="project-btn-grp">
+                                <button className="project-btn github"
+                                        onClick={()=>window.open(`https://apps.apple.com/fr/app/hellowork-recherche-demploi/id408615037`, '_blank')}>Apple Store
+                                </button>
+                                <button className="project-btn github"
+                                        onClick={()=>window.open(`https://play.google.com/store/apps/details?id=com.regionsjob.android&hl=fr&gl=US&pli=1`, '_blank')}>PlayStore
+                                </button>
+                            </div>
+                        </div>
+                </div>
+
                 <div className="project-card"
                      data-aos={'fade-right'}
                      data-aos-anchor=".project-container"
@@ -42,8 +128,7 @@ export default function Projects() {
                             </p>
                             <div className="project-btn-grp">
                                 <button className="project-btn github"
-                                        onClick={()=>window.open('https://github.com/SamuelNeveu/Fractol-JS', '_blank')}>github
-                                    repo
+                                        onClick={()=>window.open('https://github.com/SamuelNeveu/Fractol-JS', '_blank')}>Github
                                 </button>
                                 <button className="project-btn live" onClick={()=>window.open(
                             `http://wac.ovh`,
@@ -67,8 +152,7 @@ export default function Projects() {
                             </p>
                             <div className="project-btn-grp">
                                 <button className="project-btn github"
-                                        onClick={()=>window.open('https://github.com/FindTheFox/3D_Engine', '_blank')}>github
-                                    repo
+                                        onClick={()=>window.open('https://github.com/FindTheFox/3D_Engine', '_blank')}>Github
                                 </button>
                             </div>
                         </div>
@@ -87,8 +171,7 @@ export default function Projects() {
                             </p>
                             <div className="project-btn-grp">
                                 <button className="project-btn github"
-                                        onClick={()=>window.open('https://github.com/SamuelNeveu/DoomNukem', '_blank')}>github
-                                    repo
+                                        onClick={()=>window.open('https://github.com/SamuelNeveu/DoomNukem', '_blank')}>Github
                                 </button>
                             </div>
                         </div>
@@ -107,12 +190,12 @@ export default function Projects() {
                             </p>
                             <div className="project-btn-grp">
                                 <button className="project-btn github"
-                                        onClick={()=>window.open('https://github.com/SamuelNeveu/Fractal', '_blank')}>github
-                                    repo
+                                        onClick={()=>window.open('https://github.com/SamuelNeveu/Fractal', '_blank')}>Github
                                 </button>
                             </div>
                         </div>
                 </div>
+                {/*
                 <div className="project-card"
                      data-aos={'fade-left'}
                      data-aos-anchor=".project-container"
@@ -132,6 +215,7 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
+                */}
             </div>
             )
 }

@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca64a1b6.css",
-    "main.js": "/static/js/main.440d9405.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/static/css/main.4f02f72b.css",
+    "main.js": "/static/js/main.05c0fcfb.js",
+    "static/js/787.45737d0e.chunk.js": "/static/js/787.45737d0e.chunk.js",
     "static/media/doom-1.png": "/static/media/doom-1.fb9bc92d9452c1ea5d3e.png",
     "static/media/fractal.jpg": "/static/media/fractal.16ffce70e2ce040090bd.jpg",
     "static/media/CandyShop.png": "/static/media/CandyShop.5a91f0e9e7a4f0d8fee5.png",
     "static/media/fractal-3.png": "/static/media/fractal-3.cf0c26b78a3e6f1fb051.png",
+    "static/media/GeneratorMockup.jpeg": "/static/media/GeneratorMockup.0d249febf7bbb5aa9848.jpeg",
+    "static/media/HelloworkMockup.jpeg": "/static/media/HelloworkMockup.06d20e11b7adaf4d7670.jpeg",
+    "static/media/MandelbrotMockup.jpeg": "/static/media/MandelbrotMockup.35d17aa8bdff4d62ccc9.jpeg",
+    "static/media/ArvinCareMockup.jpeg": "/static/media/ArvinCareMockup.39581640e51d254981cf.jpeg",
     "static/media/engine-0.png": "/static/media/engine-0.f13bfa8e411c32268be3.png",
+    "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-SemiBold.ttf": "/static/media/Inter-SemiBold.4d56bb21f2399db8ad48.ttf",
+    "static/media/Inter-Medium.ttf": "/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
+    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "static/media/home-profil.jpg": "/static/media/home-profil.b3c6625ae106743f765c.jpg",
     "static/media/puissance4.png": "/static/media/puissance4.169d6b53a2b90bd9bd0a.png",
     "static/media/Canter Bold Strips.otf": "/static/media/Canter Bold Strips.c8d06a576778a58ac2d4.otf",
@@ -18,14 +26,13 @@
     "static/media/Flatstock.ttf": "/static/media/Flatstock.d3b845f6f1557d70f560.ttf",
     "static/media/Canter Bold.otf": "/static/media/Canter Bold.9e6e9a8f03cefaff7f33.otf",
     "static/media/Canter Light.otf": "/static/media/Canter Light.d8b003a0fed6bf932e70.otf",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.ca64a1b6.css.map": "/static/css/main.ca64a1b6.css.map",
-    "main.440d9405.js.map": "/static/js/main.440d9405.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.4f02f72b.css.map": "/static/css/main.4f02f72b.css.map",
+    "main.05c0fcfb.js.map": "/static/js/main.05c0fcfb.js.map",
+    "787.45737d0e.chunk.js.map": "/static/js/787.45737d0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca64a1b6.css",
-    "static/js/main.440d9405.js"
+    "static/css/main.4f02f72b.css",
+    "static/js/main.05c0fcfb.js"
   ]
 }

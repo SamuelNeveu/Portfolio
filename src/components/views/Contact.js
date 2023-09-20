@@ -16,7 +16,7 @@ export default function Contact() {
             emailjs.sendForm('service_t3pjfm8', 'template_yrptplo', form.current, 'RStpDyVXYVv_HSxHd')
                 .then((result) => {
                     console.log(result);
-                    setTitle("Merci, see you !");
+                    setTitle("Merci j'ai bien reçu botre message, à bientôt !");
 
                 }, (error) => {
                     setTitle("Ca n'a pas marché :/");
@@ -27,7 +27,6 @@ export default function Contact() {
         }
         else {
             console.log(email, name, message)
-            console.log('EMPTYYY')
             setTitle("A field is Empty");
         }
 
@@ -42,9 +41,8 @@ export default function Contact() {
         console.log("NAME", value)
         setName({ ...name, value });
     };
-    const handleMessageChange = (e) => {
-        let val = e.target.value
-        setMessage({ ...message, val});
+    const handleMessageChange = (value) => {
+        setMessage({ ...message, value});
     };
 
 
@@ -61,7 +59,7 @@ export default function Contact() {
                      data-aos-offset="100"
                      data-aos-duration="200">
                     <div className={"Input Input-text"}>
-                        <Input id={1}
+                        <Input id={0}
                                label="Full Name"
                                predicted="Thierry Henry"
                                locked={false}
@@ -81,11 +79,21 @@ export default function Contact() {
                                onChange={handleEmailChange}
                         />
                     </div>
+                    
                     <div className={"Input Input-textarea"}>
-                        <textarea onChange={handleMessageChange} className={"textarea"} name="message" placeholder={"May I help you ?"}/>
+                        <Input 
+                            id={2}
+                            onChange={handleMessageChange} 
+                            name="message"
+                            label={"Échangeons ici :)"}
+                        />
                     </div>
-                    <div className={"send-ctn"}>
-                        <input className={"send"} type="submit" value="Send" />
+                    <div className='send'>
+                        <div className={"send-ctn"}>       
+                            <div className=" send-btn">
+                                <input className={'send-span send-span-input'} type="submit" value="Send" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </form>
